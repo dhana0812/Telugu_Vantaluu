@@ -1,1 +1,83 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+}
+.body{
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding:10px;
+}
+.logo{
+    width:110px;
+    padding:5px;
+}
+.nav-items ul{
+    display:flex;
+    gap:30px;
+}
+.nav-items> ul > li{
+    padding:10px;
+    margin:10px;
+    list-style: none;
+}
+.res-card-img{
+  width: 100%;        /* fill the card horizontally */
+  height: 40%;       /* fill the card vertically */
+  object-fit: cover;  /* crop nicely to cover without distortion */
+  display: block;     /* removes inline spacing */
+}
+.search{
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.res-container{
+    display:flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap:25px;
+    justify-content: flex-start;
+    padding:5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.res-Card{              
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width:270px;
+    height:300px;   
+    border-radius: 10px;          
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+.res-Card:hover{
+ border: 1px solid #47626f;
+ cursor: pointer; 
+ transform: scale(1.05);
+}
+.res-name{
+    align-content: center;
+}
+.res-description p{
+    margin: 4% 1%;
+    font-size: 15px;
+}
+.cuisine {
+  color: rgba(2, 6, 12, 0.6);
+  font-size: 14px;  
+  display:block; 
+   word-wrap: break-word;
+   white-space: normal;      
+}
+
+.footer{
+    display: flex;
+    gap:23%;
+    padding: 20px;;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    font-style:oblique;
+    font-weight: bold; 
+}
 

@@ -23,6 +23,7 @@
     "color-convert": "^2.0.1",
     "color-name": "^1.1.4",
     "commander": "^12.1.0",
+    "cors": "^2.8.6",
     "detect-libc": "^1.0.3",
     "dotenv": "^16.6.1",
     "dotenv-expand": "^11.0.7",
@@ -50,6 +51,7 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-refresh": "^0.16.0",
+    "react-router-dom": "^7.18.2",
     "regenerator-runtime": "^0.14.1",
     "safe-buffer": "^5.2.1",
     "semver": "^7.8.5",
@@ -65,7 +67,7 @@
     "type": "git",
     "url": "(https://github.com/dhana0812/Telugu_Vantaluu.git)"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 versions"
   ]
 }
